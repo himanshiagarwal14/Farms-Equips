@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+header {
+    background-color: darkcyan;
+    color: rgb(4, 4, 4);
+    padding: 0px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 99px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.logo h1{
+    font-family: serif;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    margin-right: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.location {
+    margin-right: 10px;
+}
+
+.location label {
+    margin-right: 5px;
+}
+
+.location select {
+    padding: 8px;
+}
+
+.filter select {
+    padding: 10px;
+}
+
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.equipment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.equipment-item {
+    width: 30%;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.equipment-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rent-btn {
+    padding: 10px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.rent-btn:hover {
+    background-color: #45a049;
+}
